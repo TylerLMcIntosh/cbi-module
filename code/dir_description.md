@@ -1,0 +1,1 @@
+This directory contains notebooks and scripts (.R, .py, .ipynb, .qmd) used for analysis, exploration, or execution. find_set_root.py contains a helper function to identify and set the root directory dynamically and allow for easy subsequent importing of functions from utils/.
