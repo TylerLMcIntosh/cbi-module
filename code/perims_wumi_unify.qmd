@@ -1,0 +1,291 @@
+---
+title: "perims_wumi"
+author: "Tyler L. McIntosh"
+date: last-modified
+format:
+  html:
+    embed-resources: true
+    html-math-method: katex
+    css: styles.css
+    toc: true
+    toc-depth: 1
+    toc-title: Contents
+    toc-location: right
+    code-fold: true
+    code-summary: "Show the code"
+editor: 
+  markdown: 
+    wrap: 72
+---
+
+# Overview
+
+This code takes the WUMI data compiled by Park Williams et al and creates a
+unified fire perimeter dataset according to the prioritization recommendations of the authors.
+It currently uses the 2024a version that was included with the data paper submission.
+
+The data paper link is here: (https://essd.copernicus.org/preprints/essd-2025-366/)[https://essd.copernicus.org/preprints/essd-2025-366/]
+
+The Dryad dataset link along with data description is here: (https://datadryad.org/share/Ox4oxdwdrhkmjUTpke7QgkfF--h-RLRbmMzGBhSmOr4)[https://datadryad.org/share/Ox4oxdwdrhkmjUTpke7QgkfF--h-RLRbmMzGBhSmOr4]
+
+Dryad doesn't play nice with vsi, so users need to download the data MANUALLY.
+
+You need the zips ending in "final_wildfire_lists" and "fire_maps". Place both zip files in the 'data/raw/' directory of this repo.
+
+# Setup
+
+```{r setup-chunk, message = FALSE, warning = FALSE}
+
+if(!requireNamespace("here", quietly = TRUE)) {
+  install.packages("here")
+}
+library(here)
+
+source(here::here("code", "functions.R"))
+
+install_and_load_packages(c("sf",
+                            "here",
+                            "httr",
+                            "purrr",
+                            "glue",
+                            "vapour",
+                            "tidyverse"))
+
+dir_raw <- here::here("data", "raw")
+dir_derived <- here::here("data", "derived")
+dir_ensure(c(dir_raw,
+           dir_derived))
+
+```
+
+# Access, unzip, and load main fires and lists
+
+```{r data}
+##########################################################
+# USER-SET PARAMETERS
+
+
+wumi_version_name <- "WUMI2024a"
+data_location <- "https://datadryad.org/share/Ox4oxdwdrhkmjUTpke7QgkfF--h-RLRbmMzGBhSmOr4"
+
+
+fire_maps_link <- "https://datadryad.org/downloads/file_stream/4224445?share=Ox4oxdwdrhkmjUTpke7QgkfF--h-RLRbmMzGBhSmOr4"
+final_wildfire_lists_link <- "https://datadryad.org/downloads/file_stream/4224444?share=Ox4oxdwdrhkmjUTpke7QgkfF--h-RLRbmMzGBhSmOr4"
+##########################################################
+
+
+
+# Access wildfire lists txt file
+lists_root <- paste0("/vsizip/vsicurl/", final_wildfire_lists_link, "/")
+files_in_zip <- vapour_vsi_list(lists_root, recursive = TRUE)
+
+
+
+
+wumi_main_fires <- sf::st_read(paste0("/vsizip/vsicurl/", final_wildfire_lists_link, "/*final_wildfire_lists/*no_subfires.txt"))
+
+
+
+wumi_base <- tools::file_path_sans_ext(wumi_zip)
+
+wumi_zip <- here::here(dir_raw, "WUMI_20250509.zip")
+wumi_unzipped <- safe_unzip(zip_path = wumi_zip,
+                       extract_to = dirname(wumi_zip),
+                       recursive = FALSE,
+                       keep_zip = TRUE,
+                       return_all_paths = FALSE,
+                       full_contents_check = FALSE)
+
+wumi_main_fires <- readr::read_csv(file = here::here(wumi_unzipped, "multiproduct_unique_fires.txt"),
+                                   show_col_types = FALSE)
+
+
+```
+
+# Primary operating functions
+
+```{r functions}
+
+prioritize_wumi_perimeter <- function(id) {
+  
+  ba_mtbs_file <- here::here(wumi_unzipped, "FireMaps", id, "burnarea_mtbs.shp")
+  ba_calfire_file <- here::here(wumi_unzipped, "FireMaps", id, "burnarea_calfire.shp")
+  ba_nifc_file <- here::here(wumi_unzipped, "FireMaps", id, "burnarea_nifc.shp")
+  ba_geomac_file <- here::here(wumi_unzipped, "FireMaps", id, "burnarea_geomac.shp")
+  ba_circle_file <- here::here(wumi_unzipped, "FireMaps", id, "burnarea_circle.shp")
+  
+  priority_file <- ""
+
+  if(file.exists(ba_mtbs_file)) {
+    priority_file <- ba_mtbs_file
+  } else if(file.exists(ba_calfire_file)) {
+    priority_file <- ba_calfire_file
+  } else if(file.exists(ba_nifc_file)) {
+    priority_file <- ba_nifc_file
+  } else if(file.exists(ba_geomac_file)) {
+    priority_file <- ba_geomac_file
+  } else {
+    priority_file <- ba_circle_file
+  }
+  
+  return(priority_file)
+}
+
+
+load_file_add_dats <- function(prioritized_file) {
+  p_file_name <- basename(prioritized_file)
+  perimeter_type <- switch(p_file_name,
+                           "burnarea_mtbs.shp" = "MTBS",
+                           "burnarea_calfire.shp" = "CALFIRE",
+                           "burnarea_nifc.shp" = "NIFC",
+                           "burnarea_geomac.shp" = "GEOMAC",
+                           "burnarea_circle.shp" = "CIRCLE",
+                           NA)
+  p <- sf::st_read(prioritized_file,
+                   quiet = TRUE) |>
+    dplyr::mutate(perimeter_type = perimeter_type,
+                  fire_year = lubridate::year(date)) |>
+    sf::st_set_crs("ESRI:102039")
+  return(p)
+}
+
+
+```
+
+# Use primary operating functions
+
+```{r operate}
+ids <- wumi_main_fires$fireid
+#ids <- ids[1:1000]
+
+# Use functions and rename since columns got shortened in .shp export from Park
+prioritized_perims <- ids |>
+  purrr::map(prioritize_wumi_perimeter) |>
+  purrr::map(load_file_add_dats) |>
+  dplyr::bind_rows() |>
+  dplyr::rename(poly_area_ha = poly_area_h,
+                burn_area_ha = burn_area_h,
+                object_ID_interagency = object_ID_i,
+                object_ID_short = object_ID_s,
+                object_ID_nifc = object_ID_n,
+                object_ID_calfire = object_ID_c,
+                object_ID_geomac = object_ID_g,
+                cause_human_or_natural = cause_human,
+                cause_specific = cause_speci)
+
+
+```
+
+# Get some basic stats for user
+
+```{r stats}
+
+# Total events by perimeter_type
+event_count <- prioritized_perims |>
+  sf::st_drop_geometry() |>
+  dplyr::group_by(perimeter_type) |>
+  dplyr::summarise(number_of_events = n())
+event_count
+
+# Total area by perimeter_type
+area_totals <- prioritized_perims |>
+  sf::st_drop_geometry() |>
+  dplyr::group_by(perimeter_type) |>
+  dplyr::summarise(total_area = sum(poly_area_ha))
+area_totals
+
+# Area density by perimeter type
+ggplot() + 
+  geom_density(data = prioritized_perims,
+                 aes(x = poly_area_ha, color = perimeter_type)) +
+  labs(title = glue::glue("Density plots of fire areas by perimeter type in {wumi_base}")) +
+  scale_x_log10()
+
+# Total perimeters
+print(glue::glue("There are {nrow(prioritized_perims)} events in the total {wumi_base} unified main fire set."))
+
+```
+
+# Write out
+
+```{r write}
+
+sf::st_write(prioritized_perims,
+             here::here(dir_derived, glue::glue("{wumi_base}_main_fires_unified.gpkg")),
+             append = FALSE)
+
+for_shp <- prioritized_perims |>
+  dplyr::select(fireid, date, fire_year) |>
+  dplyr::mutate(day_of_yr = lubridate::yday(as.Date(date)))
+st_write_shp(shp = for_shp,
+             location = dir_derived,
+             filename = glue::glue("{wumi_base}_main_fires_unified_simple"),
+             zip_only = TRUE,
+             overwrite = TRUE)
+
+
+
+```
+
+# Package with metadata
+
+```{r}
+
+column_descriptions <- c(
+  "Fire ID from WUMI)",
+  "The dataset that the data came from",
+  "The reporting agency",
+  "The name of the fire, if available",
+  "The date of the fire, if available",
+  "Latitude",
+  "Longitude",
+  "Calculated area of the polygon",
+  "Actual burned area within the polygon, if available",
+  "Name in MTBS dataset",
+  "ID in MTBS dataset",
+  "Interagency IRWIN ID",
+  "FOD ID",
+  "FPA ID",
+  "Interagency ID",
+  "ID in Short database",
+  "ID in NIFC database",
+  "ID in Calfire database",
+  "ID in GEOMAC database",
+  "Human vs natural cause (if known)",
+  "More specific cause (if known)",
+  "The type of perimeter used in the prioritization scheme (added at unification step)",
+  "The year of the fire if available (added at unification step)",
+  "Geospatial delineation")
+
+package_with_metadata(data_file_path = c(here::here(dir_derived, glue::glue("{wumi_version_name}_main_fires_unified.gpkg"))),
+                      column_names = c("fireid", "dataset", "agency", "name", "date", "lat", "lon", "poly_area_ha", "burn_area_ha", "MTBS_name", "MTBS_ID", "IRWINID", "FOD_ID", "FPA_ID", "object_ID_interagency", "object_ID_short", "object_ID_nifc", "object_ID_calfire", "object_ID_geomac", "cause_human_or_natural", "cause_specific", "perimeter_type", "fire_year", "geometry"),
+                      column_descriptions = column_descriptions,
+                      overall_description = glue::glue("This is a unified perimeter set for the {wumi_version} dataset. The WUMI3 dataset is created by Park Williams, and is generated as a set of individual shapefiles. To streamline use by the WFFRC community, this dataset consists of a unified set of perimeters for the 'main fires' in the dataset. ('Main fires' meaning that some of the events are complex fires composed of multiple smaller events.) The WUMI3 dataset incorporates data from multiple different sources. The perimeters here have been selected using the following prioritization scheme:\n\n- MTBS whenever available CalFire if MTBS is not available\n- NIFC if neither of the above is available\n- GEOMAC if none of the above are available\n- Circle if none of the above area available\n\nFurther information on WUMI3, each data source included, and the unification process can be found in the rendered HTML file that is packaged with the data. All columns in the generated perimeter set are from the original WUMI3 data unless otherwise specified."),
+                      author = "Tyler L. McIntosh",
+                      github_repo = "https://github.com/WFFRC/operational-numbers-on-good-fire.git",
+                      out_dir = dir_derived,
+                      data_name_full = glue::glue("{wumi_version} unified main fire perimeters"),
+                      data_name_file = glue::glue("{wumi_version}_main_fires_unified"),
+                      compression_level = 9)
+
+
+```
+
+
+
+
+<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne">
+
+Click to show R Session Information
+
+</button>
+
+:::: {#collapseOne .accordion-collapse .collapse}
+<div>
+
+```{r sessionInfo}
+sessionInfo()
+```
+
+</div>
+::::

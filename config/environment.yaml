@@ -1,0 +1,50 @@
+name: cbi-module
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.10
+  
+  # Core scientific python
+  - numpy
+  - matplotlib
+  - rioxarray
+  - geopandas
+  - gdal
+  - osmnx
+  
+  - rasterio
+  - geemap
+  - earthengine-api
+  - google-auth
+  - google-api-python-client
+  - PyDrive2
+  - xarray
+  - zarr
+  - dask
+  - folium
+  - leafmap
+  - pyproj
+
+  # Jupyter Lab Environment & Kernel
+  - papermill
+  - autopep8
+  - jupyterlab
+  - notebook
+  - ipython
+  - nbclean
+  - nbresuse
+  - jupyterlab-geojson
+  - nb_conda_kernels
+  - ipykernel
+  - gh
+  - ipyleaflet
+  - jupyterlab_widgets
+  - ipywidgets
+  - nodejs
+
+  - pip
+  - pip:
+      - geemap>=0.33.6
+      - earthengine-api>=1.1.0
