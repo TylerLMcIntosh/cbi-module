@@ -38,18 +38,18 @@ west <- tigris::states() |>
 welty <- sf::st_read(here::here('data', 'raw', 'welty_combined_wildland_fire_dataset', 'welty_combined_wildland_fire_perimeters.shp')) |>
   sf::st_transform(epsg)
 
-welty_wf <- welty|>
-  dplyr::filter(Assigned_F == "Wildfire" | Assigned_F == "Likely Wildfire")
+welty_wf <- welty |>
+  dplyr::filter(Assigned_F == "Wildfire" | Assigned_F == "Likely Wildfire" | Assigned_F == "Unknown - Likely Wildfire")
 
   
 welty_wildfire_1984_2020 <- welty_wf |> 
   dplyr::filter(Fire_Year >= 1984 & Fire_Year <= 2020) |>
   sf::st_filter(west)
 
-
 # Write files
 
-flnm <- here::here(dir_derived, paste0(flnm, ".gpkg"))
+gpkg_flnm <- here::here(dir_derived, paste0(flnm, ".gpkg"))
+st_write(welty_wildfire_1984_2020, gpkg_flnm)
 st_write_shp(shp = welty_wildfire_1984_2020,
              location = dir_derived,
              filename = flnm,

@@ -18,12 +18,15 @@ dir_derived <- here::here("data", "derived")
 dir_ensure(c(dir_raw,
              dir_derived))
 
-filenm <- "firedv2_west"
+epsg <- "EPSG:5070"
 
-fired <- sf::st_read(here(dir_raw, "fired_conus_ak_2000_to_2025_events_merged.gpkg"))
+filenm <- "fired_west_2000_to_2020_events"
 
+fired <- sf::st_read(here(dir_raw, "fired_conus_ak_2000_to_2025_events/fired_conus_ak_2000_to_2025_events.shp")) |>
+  st_transform(epsg)
 
-states <- tigris::states()
+states <- tigris::states() |>
+  st_transform(epsg)
 
 
 
@@ -103,8 +106,7 @@ western_states <- c(
 
 # Filter TIGRIS states layer and transform to match EPA CRS
 states_west <- states |>
-  dplyr::filter(NAME %in% western_states) |>
-  sf::st_transform(sf::st_crs(fired))
+  dplyr::filter(NAME %in% western_states)
 
 
 # -------------------------------------------------------------------
@@ -127,6 +129,6 @@ st_write_shp(
   overwrite = TRUE
 )
 
-st_write(fired_west, here(dir_derived, paste0(filenm, ".gpkg")))
+st_write(fired_west, here(dir_derived, paste0(filenm, ".gpkg")), append = FALSE)
 
 
