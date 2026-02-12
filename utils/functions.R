@@ -405,7 +405,7 @@ safe_extract <- function(archive_path,
 
 #' Safe Unzip a File (with Optional Recursive Unzipping and ZIP Cleanup)
 #'
-#' Safely unzips a ZIP file to a specified directory. Supports skipping extraction if files or top-level folder already exist, recursive unzipping of nested ZIPs, and optional deletion of ZIP files.
+#' Safely unzips a ZIP file to a specified directory (using utils::unzip). Supports skipping extraction if files or top-level folder already exist, recursive unzipping of nested ZIPs, and optional deletion of ZIP files.
 #'
 #' @param zip_path Character. Path to the local ZIP file.
 #' @param extract_to Character. Directory where the contents should be extracted. Defaults to the ZIP's directory.
@@ -442,7 +442,7 @@ safe_unzip <- function(zip_path,
   if (!is.logical(return_all_paths) || length(return_all_paths) != 1) stop("`return_all_paths` must be logical.")
   
   # Get ZIP listing and top-level directory
-  zip_listing <- unzip(zip_path, list = TRUE)
+  zip_listing <- utils::unzip(zip_path, list = TRUE, setTimes = FALSE)
   top_level_dirs <- unique(sub("/.*", "", zip_listing$Name))
   top_dir_path <- file.path(extract_to, top_level_dirs[1])
   
@@ -458,7 +458,7 @@ safe_unzip <- function(zip_path,
   if (!skip_unzip) {
     if (!dir.exists(extract_to)) dir.create(extract_to, recursive = TRUE)
     tryCatch({
-      unzip(zip_path, exdir = extract_to)
+      utils::unzip(zip_path, exdir = extract_to, setTimes = FALSE)
     }, error = function(e) {
       stop("Failed to unzip: ", e$message)
     })
@@ -466,7 +466,7 @@ safe_unzip <- function(zip_path,
     if (recursive) {
       nested_zips <- list.files(extract_to, pattern = "\\.zip$", recursive = TRUE, full.names = TRUE)
       for (nz in nested_zips) {
-        unzip(nz, exdir = dirname(nz))
+        utils::unzip(nz, exdir = dirname(nz), setTimes = FALSE)
         if (!keep_zip) unlink(nz)
       }
     }
@@ -642,6 +642,7 @@ download_data_from_gdrive <- function(gDrivePath, localPath) {
 #' @param out_dir Output directory path.
 #' @param data_name_full Full dataset name for metadata.
 #' @param data_name_file Base filename for output (no extension).
+#' @param test TRUE/FALSE - if TRUE, write metadata_test.md file and do not zip data
 #' @param ... Additional parameters to pass to zip::zip
 #'
 #' @return NULL. Writes metadata and zip file to disk.
@@ -649,7 +650,7 @@ download_data_from_gdrive <- function(gDrivePath, localPath) {
 #' @importFrom zip zip
 package_with_metadata <- function(data_file_path, column_names, column_descriptions,
                                   overall_description, author, github_repo,
-                                  out_dir, data_name_full, data_name_file, ...) {
+                                  out_dir, data_name_full, data_name_file, test = FALSE, ...) {
   # Ensure data_file_path is a character vector
   if (!is.character(data_file_path)) {
     stop("data_file_path must be a character string or a character vector.")
@@ -667,30 +668,45 @@ package_with_metadata <- function(data_file_path, column_names, column_descripti
   df_metadata <- cbind(column_names, column_descriptions)
   
   # Create metadata markdown
-  meta_path <- file.path(out_dir, "metadata.md")
+  if(test) {
+    meta_path <- file.path(out_dir, "metadata_test.md")
+  } else {
+    meta_path <- file.path(out_dir, "metadata.md")
+  }
   stamp <- format(Sys.time(), "%Y-%m-%d %H:%M:%S %Z")
   
   sink(meta_path)
   cat("# Metadata for the ", data_name_full, " dataset\n")
   cat(overall_description, "\n\n")
   cat("## Information\n")
-  cat("Author: ", author, "\n")
-  cat("Date generated: ", stamp, "\n")
-  cat("[GitHub repo with code for reproduction](", github_repo, ")\n\n")
-  cat("## Metadata\n")
-  cat("column_names :: column_descriptions\n")
-  cat(apply(df_metadata, 1, paste, collapse = " :: "), sep = "\n")
+  cat("- **Author:** ", author, "\n")
+  cat("- **Date generated:** ", stamp, "\n")
+  cat("- [GitHub repo with code for reproduction](",github_repo,")\n\n")
+  # cat("## Metadata\n")
+  # cat("column_names :: column_descriptions\n")
+  # cat(apply(df_metadata, 1, paste, collapse = " :: "), sep = "\n")
+  
+  cat("## Metadata\n\n")
+  cat("| Column | Description |\n")
+  cat("|--------|------------|\n")
+  
+  apply(df_metadata, 1, function(row) {
+    cat("|", row[1], "|", row[2], "|\n")
+  })
+  
   sink()
   
-  # Zip files
-  zip_path <- file.path(out_dir, paste0(data_name_file, ".zip"))
-  zip::zip(zipfile = zip_path,
-           files = c(data_file_path, meta_path),
-           mode = "cherry-pick",
-           ...)
-  
-  # Clean up temporary metadata file
-  file.remove(meta_path)
+  if(!test) {
+    # Zip files
+    zip_path <- file.path(out_dir, paste0(data_name_file, ".zip"))
+    zip::zip(zipfile = zip_path,
+             files = c(data_file_path, meta_path),
+             mode = "cherry-pick",
+             ...)
+    
+    # Clean up temporary metadata file
+    file.remove(meta_path)
+  }
 }
 
 
