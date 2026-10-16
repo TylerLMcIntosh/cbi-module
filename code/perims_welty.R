@@ -22,6 +22,8 @@ dir_derived <- here::here('data', 'derived')
 dir_ensure(dir_derived)
 
 flnm <- "welty_wildfire_west_1984_2020"
+rx_flnm <- "welty_rx_west_1984_2020"
+
 
 # Operate ----
 
@@ -38,8 +40,15 @@ west <- tigris::states() |>
 welty <- sf::st_read(here::here('data', 'raw', 'welty_combined_wildland_fire_dataset', 'welty_combined_wildland_fire_perimeters.shp')) |>
   sf::st_transform(epsg)
 
+unique(welty$Assigned_F)
+
 welty_wf <- welty |>
   dplyr::filter(Assigned_F == "Wildfire" | Assigned_F == "Likely Wildfire" | Assigned_F == "Unknown - Likely Wildfire")
+
+welty_rx <- welty |>
+  dplyr::filter(Assigned_F == "Prescribed Fire" | Assigned_F == "Unknown - Likely Prescribed Fire") |> 
+  dplyr::filter(Fire_Year >= 1984 & Fire_Year <= 2020) |>
+  sf::st_filter(west)
 
   
 welty_wildfire_1984_2020 <- welty_wf |> 
@@ -58,5 +67,15 @@ st_write_shp(shp = welty_wildfire_1984_2020,
 
 
 
+rx_gpkg_flnm <- here::here(dir_derived, paste0(rx_flnm, ".gpkg"))
+st_write(welty_rx, rx_gpkg_flnm)
+st_write_shp(shp = welty_rx,
+             location = dir_derived,
+             filename = rx_flnm,
+             zip_only = TRUE,
+             overwrite = TRUE)
 
+
+
+t <- st_read(here(dir_derived, "welty_wildfire_west_1984_2020.gpkg"))
 

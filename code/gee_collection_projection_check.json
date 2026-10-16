@@ -1,0 +1,3843 @@
+[
+  {
+    "collection_id": "projects/ee-tymc5571-cbi-module/assets/bccbi_firedv2_west",
+    "n_images": 25,
+    "unique_crs": 1,
+    "unique_transforms": 1,
+    "crs_counts": {
+      "EPSG:5070": 25
+    },
+    "transform_counts": {
+      "(30, 0, -2361600, 0, -30, 3177450)": 25
+    },
+    "records": [
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/bccbi_firedv2_west/bccbi_firedv2_west_2000",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:5070",
+        "crs_transform": [
+          30,
+          0,
+          -2361600,
+          0,
+          -30,
+          3177450
+        ],
+        "dimensions": [
+          61900,
+          72855
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/bccbi_firedv2_west/bccbi_firedv2_west_2001",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:5070",
+        "crs_transform": [
+          30,
+          0,
+          -2361600,
+          0,
+          -30,
+          3177450
+        ],
+        "dimensions": [
+          61900,
+          72855
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/bccbi_firedv2_west/bccbi_firedv2_west_2002",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:5070",
+        "crs_transform": [
+          30,
+          0,
+          -2361600,
+          0,
+          -30,
+          3177450
+        ],
+        "dimensions": [
+          61900,
+          72855
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/bccbi_firedv2_west/bccbi_firedv2_west_2003",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:5070",
+        "crs_transform": [
+          30,
+          0,
+          -2361600,
+          0,
+          -30,
+          3177450
+        ],
+        "dimensions": [
+          61900,
+          72855
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/bccbi_firedv2_west/bccbi_firedv2_west_2004",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:5070",
+        "crs_transform": [
+          30,
+          0,
+          -2361600,
+          0,
+          -30,
+          3177450
+        ],
+        "dimensions": [
+          61900,
+          72855
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/bccbi_firedv2_west/bccbi_firedv2_west_2005",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:5070",
+        "crs_transform": [
+          30,
+          0,
+          -2361600,
+          0,
+          -30,
+          3177450
+        ],
+        "dimensions": [
+          61900,
+          72855
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/bccbi_firedv2_west/bccbi_firedv2_west_2006",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:5070",
+        "crs_transform": [
+          30,
+          0,
+          -2361600,
+          0,
+          -30,
+          3177450
+        ],
+        "dimensions": [
+          61900,
+          72855
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/bccbi_firedv2_west/bccbi_firedv2_west_2007",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:5070",
+        "crs_transform": [
+          30,
+          0,
+          -2361600,
+          0,
+          -30,
+          3177450
+        ],
+        "dimensions": [
+          61900,
+          72855
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/bccbi_firedv2_west/bccbi_firedv2_west_2008",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:5070",
+        "crs_transform": [
+          30,
+          0,
+          -2361600,
+          0,
+          -30,
+          3177450
+        ],
+        "dimensions": [
+          61900,
+          72855
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/bccbi_firedv2_west/bccbi_firedv2_west_2009",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:5070",
+        "crs_transform": [
+          30,
+          0,
+          -2361600,
+          0,
+          -30,
+          3177450
+        ],
+        "dimensions": [
+          61900,
+          72855
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/bccbi_firedv2_west/bccbi_firedv2_west_2010",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:5070",
+        "crs_transform": [
+          30,
+          0,
+          -2361600,
+          0,
+          -30,
+          3177450
+        ],
+        "dimensions": [
+          61900,
+          72855
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/bccbi_firedv2_west/bccbi_firedv2_west_2011",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:5070",
+        "crs_transform": [
+          30,
+          0,
+          -2361600,
+          0,
+          -30,
+          3177450
+        ],
+        "dimensions": [
+          61900,
+          72855
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/bccbi_firedv2_west/bccbi_firedv2_west_2012",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:5070",
+        "crs_transform": [
+          30,
+          0,
+          -2361600,
+          0,
+          -30,
+          3177450
+        ],
+        "dimensions": [
+          61900,
+          72855
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/bccbi_firedv2_west/bccbi_firedv2_west_2013",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:5070",
+        "crs_transform": [
+          30,
+          0,
+          -2361600,
+          0,
+          -30,
+          3177450
+        ],
+        "dimensions": [
+          61900,
+          72855
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/bccbi_firedv2_west/bccbi_firedv2_west_2014",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:5070",
+        "crs_transform": [
+          30,
+          0,
+          -2361600,
+          0,
+          -30,
+          3177450
+        ],
+        "dimensions": [
+          61900,
+          72855
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/bccbi_firedv2_west/bccbi_firedv2_west_2015",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:5070",
+        "crs_transform": [
+          30,
+          0,
+          -2361600,
+          0,
+          -30,
+          3177450
+        ],
+        "dimensions": [
+          61900,
+          72855
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/bccbi_firedv2_west/bccbi_firedv2_west_2016",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:5070",
+        "crs_transform": [
+          30,
+          0,
+          -2361600,
+          0,
+          -30,
+          3177450
+        ],
+        "dimensions": [
+          61900,
+          72855
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/bccbi_firedv2_west/bccbi_firedv2_west_2017",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:5070",
+        "crs_transform": [
+          30,
+          0,
+          -2361600,
+          0,
+          -30,
+          3177450
+        ],
+        "dimensions": [
+          61900,
+          72855
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/bccbi_firedv2_west/bccbi_firedv2_west_2018",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:5070",
+        "crs_transform": [
+          30,
+          0,
+          -2361600,
+          0,
+          -30,
+          3177450
+        ],
+        "dimensions": [
+          61900,
+          72855
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/bccbi_firedv2_west/bccbi_firedv2_west_2019",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:5070",
+        "crs_transform": [
+          30,
+          0,
+          -2361600,
+          0,
+          -30,
+          3177450
+        ],
+        "dimensions": [
+          61900,
+          72855
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/bccbi_firedv2_west/bccbi_firedv2_west_2020",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:5070",
+        "crs_transform": [
+          30,
+          0,
+          -2361600,
+          0,
+          -30,
+          3177450
+        ],
+        "dimensions": [
+          61900,
+          72855
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/bccbi_firedv2_west/bccbi_firedv2_west_2021",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:5070",
+        "crs_transform": [
+          30,
+          0,
+          -2361600,
+          0,
+          -30,
+          3177450
+        ],
+        "dimensions": [
+          61900,
+          72855
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/bccbi_firedv2_west/bccbi_firedv2_west_2022",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:5070",
+        "crs_transform": [
+          30,
+          0,
+          -2361600,
+          0,
+          -30,
+          3177450
+        ],
+        "dimensions": [
+          61900,
+          72855
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/bccbi_firedv2_west/bccbi_firedv2_west_2023",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:5070",
+        "crs_transform": [
+          30,
+          0,
+          -2361600,
+          0,
+          -30,
+          3177450
+        ],
+        "dimensions": [
+          61900,
+          72855
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/bccbi_firedv2_west/bccbi_firedv2_west_2024",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:5070",
+        "crs_transform": [
+          30,
+          0,
+          -2361600,
+          0,
+          -30,
+          3177450
+        ],
+        "dimensions": [
+          61900,
+          72855
+        ]
+      }
+    ]
+  },
+  {
+    "collection_id": "projects/ee-tymc5571-cbi-module/assets/bccbi_welty_west",
+    "n_images": 36,
+    "unique_crs": 1,
+    "unique_transforms": 1,
+    "crs_counts": {
+      "EPSG:5070": 36
+    },
+    "transform_counts": {
+      "(30, 0, -2361600, 0, -30, 3177450)": 36
+    },
+    "records": [
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/bccbi_welty_west/bccbi_welty_west_1985",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:5070",
+        "crs_transform": [
+          30,
+          0,
+          -2361600,
+          0,
+          -30,
+          3177450
+        ],
+        "dimensions": [
+          61900,
+          72855
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/bccbi_welty_west/bccbi_welty_west_1986",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:5070",
+        "crs_transform": [
+          30,
+          0,
+          -2361600,
+          0,
+          -30,
+          3177450
+        ],
+        "dimensions": [
+          61900,
+          72855
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/bccbi_welty_west/bccbi_welty_west_1987",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:5070",
+        "crs_transform": [
+          30,
+          0,
+          -2361600,
+          0,
+          -30,
+          3177450
+        ],
+        "dimensions": [
+          61900,
+          72855
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/bccbi_welty_west/bccbi_welty_west_1988",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:5070",
+        "crs_transform": [
+          30,
+          0,
+          -2361600,
+          0,
+          -30,
+          3177450
+        ],
+        "dimensions": [
+          61900,
+          72855
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/bccbi_welty_west/bccbi_welty_west_1989",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:5070",
+        "crs_transform": [
+          30,
+          0,
+          -2361600,
+          0,
+          -30,
+          3177450
+        ],
+        "dimensions": [
+          61900,
+          72855
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/bccbi_welty_west/bccbi_welty_west_1990",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:5070",
+        "crs_transform": [
+          30,
+          0,
+          -2361600,
+          0,
+          -30,
+          3177450
+        ],
+        "dimensions": [
+          61900,
+          72855
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/bccbi_welty_west/bccbi_welty_west_1991",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:5070",
+        "crs_transform": [
+          30,
+          0,
+          -2361600,
+          0,
+          -30,
+          3177450
+        ],
+        "dimensions": [
+          61900,
+          72855
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/bccbi_welty_west/bccbi_welty_west_1992",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:5070",
+        "crs_transform": [
+          30,
+          0,
+          -2361600,
+          0,
+          -30,
+          3177450
+        ],
+        "dimensions": [
+          61900,
+          72855
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/bccbi_welty_west/bccbi_welty_west_1993",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:5070",
+        "crs_transform": [
+          30,
+          0,
+          -2361600,
+          0,
+          -30,
+          3177450
+        ],
+        "dimensions": [
+          61900,
+          72855
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/bccbi_welty_west/bccbi_welty_west_1994",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:5070",
+        "crs_transform": [
+          30,
+          0,
+          -2361600,
+          0,
+          -30,
+          3177450
+        ],
+        "dimensions": [
+          61900,
+          72855
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/bccbi_welty_west/bccbi_welty_west_1995",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:5070",
+        "crs_transform": [
+          30,
+          0,
+          -2361600,
+          0,
+          -30,
+          3177450
+        ],
+        "dimensions": [
+          61900,
+          72855
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/bccbi_welty_west/bccbi_welty_west_1996",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:5070",
+        "crs_transform": [
+          30,
+          0,
+          -2361600,
+          0,
+          -30,
+          3177450
+        ],
+        "dimensions": [
+          61900,
+          72855
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/bccbi_welty_west/bccbi_welty_west_1997",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:5070",
+        "crs_transform": [
+          30,
+          0,
+          -2361600,
+          0,
+          -30,
+          3177450
+        ],
+        "dimensions": [
+          61900,
+          72855
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/bccbi_welty_west/bccbi_welty_west_1998",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:5070",
+        "crs_transform": [
+          30,
+          0,
+          -2361600,
+          0,
+          -30,
+          3177450
+        ],
+        "dimensions": [
+          61900,
+          72855
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/bccbi_welty_west/bccbi_welty_west_1999",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:5070",
+        "crs_transform": [
+          30,
+          0,
+          -2361600,
+          0,
+          -30,
+          3177450
+        ],
+        "dimensions": [
+          61900,
+          72855
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/bccbi_welty_west/bccbi_welty_west_2000",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:5070",
+        "crs_transform": [
+          30,
+          0,
+          -2361600,
+          0,
+          -30,
+          3177450
+        ],
+        "dimensions": [
+          61900,
+          72855
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/bccbi_welty_west/bccbi_welty_west_2001",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:5070",
+        "crs_transform": [
+          30,
+          0,
+          -2361600,
+          0,
+          -30,
+          3177450
+        ],
+        "dimensions": [
+          61900,
+          72855
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/bccbi_welty_west/bccbi_welty_west_2002",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:5070",
+        "crs_transform": [
+          30,
+          0,
+          -2361600,
+          0,
+          -30,
+          3177450
+        ],
+        "dimensions": [
+          61900,
+          72855
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/bccbi_welty_west/bccbi_welty_west_2003",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:5070",
+        "crs_transform": [
+          30,
+          0,
+          -2361600,
+          0,
+          -30,
+          3177450
+        ],
+        "dimensions": [
+          61900,
+          72855
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/bccbi_welty_west/bccbi_welty_west_2004",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:5070",
+        "crs_transform": [
+          30,
+          0,
+          -2361600,
+          0,
+          -30,
+          3177450
+        ],
+        "dimensions": [
+          61900,
+          72855
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/bccbi_welty_west/bccbi_welty_west_2005",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:5070",
+        "crs_transform": [
+          30,
+          0,
+          -2361600,
+          0,
+          -30,
+          3177450
+        ],
+        "dimensions": [
+          61900,
+          72855
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/bccbi_welty_west/bccbi_welty_west_2006",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:5070",
+        "crs_transform": [
+          30,
+          0,
+          -2361600,
+          0,
+          -30,
+          3177450
+        ],
+        "dimensions": [
+          61900,
+          72855
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/bccbi_welty_west/bccbi_welty_west_2007",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:5070",
+        "crs_transform": [
+          30,
+          0,
+          -2361600,
+          0,
+          -30,
+          3177450
+        ],
+        "dimensions": [
+          61900,
+          72855
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/bccbi_welty_west/bccbi_welty_west_2008",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:5070",
+        "crs_transform": [
+          30,
+          0,
+          -2361600,
+          0,
+          -30,
+          3177450
+        ],
+        "dimensions": [
+          61900,
+          72855
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/bccbi_welty_west/bccbi_welty_west_2009",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:5070",
+        "crs_transform": [
+          30,
+          0,
+          -2361600,
+          0,
+          -30,
+          3177450
+        ],
+        "dimensions": [
+          61900,
+          72855
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/bccbi_welty_west/bccbi_welty_west_2010",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:5070",
+        "crs_transform": [
+          30,
+          0,
+          -2361600,
+          0,
+          -30,
+          3177450
+        ],
+        "dimensions": [
+          61900,
+          72855
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/bccbi_welty_west/bccbi_welty_west_2011",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:5070",
+        "crs_transform": [
+          30,
+          0,
+          -2361600,
+          0,
+          -30,
+          3177450
+        ],
+        "dimensions": [
+          61900,
+          72855
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/bccbi_welty_west/bccbi_welty_west_2012",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:5070",
+        "crs_transform": [
+          30,
+          0,
+          -2361600,
+          0,
+          -30,
+          3177450
+        ],
+        "dimensions": [
+          61900,
+          72855
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/bccbi_welty_west/bccbi_welty_west_2013",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:5070",
+        "crs_transform": [
+          30,
+          0,
+          -2361600,
+          0,
+          -30,
+          3177450
+        ],
+        "dimensions": [
+          61900,
+          72855
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/bccbi_welty_west/bccbi_welty_west_2014",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:5070",
+        "crs_transform": [
+          30,
+          0,
+          -2361600,
+          0,
+          -30,
+          3177450
+        ],
+        "dimensions": [
+          61900,
+          72855
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/bccbi_welty_west/bccbi_welty_west_2015",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:5070",
+        "crs_transform": [
+          30,
+          0,
+          -2361600,
+          0,
+          -30,
+          3177450
+        ],
+        "dimensions": [
+          61900,
+          72855
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/bccbi_welty_west/bccbi_welty_west_2016",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:5070",
+        "crs_transform": [
+          30,
+          0,
+          -2361600,
+          0,
+          -30,
+          3177450
+        ],
+        "dimensions": [
+          61900,
+          72855
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/bccbi_welty_west/bccbi_welty_west_2017",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:5070",
+        "crs_transform": [
+          30,
+          0,
+          -2361600,
+          0,
+          -30,
+          3177450
+        ],
+        "dimensions": [
+          61900,
+          72855
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/bccbi_welty_west/bccbi_welty_west_2018",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:5070",
+        "crs_transform": [
+          30,
+          0,
+          -2361600,
+          0,
+          -30,
+          3177450
+        ],
+        "dimensions": [
+          61900,
+          72855
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/bccbi_welty_west/bccbi_welty_west_2019",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:5070",
+        "crs_transform": [
+          30,
+          0,
+          -2361600,
+          0,
+          -30,
+          3177450
+        ],
+        "dimensions": [
+          61900,
+          72855
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/bccbi_welty_west/bccbi_welty_west_2020",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:5070",
+        "crs_transform": [
+          30,
+          0,
+          -2361600,
+          0,
+          -30,
+          3177450
+        ],
+        "dimensions": [
+          61900,
+          72855
+        ]
+      }
+    ]
+  },
+  {
+    "collection_id": "projects/ee-tymc5571-cbi-module/assets/bccbi_wumi_west_circles",
+    "n_images": 40,
+    "unique_crs": 1,
+    "unique_transforms": 1,
+    "crs_counts": {
+      "EPSG:5070": 40
+    },
+    "transform_counts": {
+      "(30, 0, -2361600, 0, -30, 3177450)": 40
+    },
+    "records": [
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/bccbi_wumi_west_circles/bccbi_wumi_west_circles_1985",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:5070",
+        "crs_transform": [
+          30,
+          0,
+          -2361600,
+          0,
+          -30,
+          3177450
+        ],
+        "dimensions": [
+          61900,
+          72855
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/bccbi_wumi_west_circles/bccbi_wumi_west_circles_1986",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:5070",
+        "crs_transform": [
+          30,
+          0,
+          -2361600,
+          0,
+          -30,
+          3177450
+        ],
+        "dimensions": [
+          61900,
+          72855
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/bccbi_wumi_west_circles/bccbi_wumi_west_circles_1987",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:5070",
+        "crs_transform": [
+          30,
+          0,
+          -2361600,
+          0,
+          -30,
+          3177450
+        ],
+        "dimensions": [
+          61900,
+          72855
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/bccbi_wumi_west_circles/bccbi_wumi_west_circles_1988",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:5070",
+        "crs_transform": [
+          30,
+          0,
+          -2361600,
+          0,
+          -30,
+          3177450
+        ],
+        "dimensions": [
+          61900,
+          72855
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/bccbi_wumi_west_circles/bccbi_wumi_west_circles_1989",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:5070",
+        "crs_transform": [
+          30,
+          0,
+          -2361600,
+          0,
+          -30,
+          3177450
+        ],
+        "dimensions": [
+          61900,
+          72855
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/bccbi_wumi_west_circles/bccbi_wumi_west_circles_1990",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:5070",
+        "crs_transform": [
+          30,
+          0,
+          -2361600,
+          0,
+          -30,
+          3177450
+        ],
+        "dimensions": [
+          61900,
+          72855
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/bccbi_wumi_west_circles/bccbi_wumi_west_circles_1991",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:5070",
+        "crs_transform": [
+          30,
+          0,
+          -2361600,
+          0,
+          -30,
+          3177450
+        ],
+        "dimensions": [
+          61900,
+          72855
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/bccbi_wumi_west_circles/bccbi_wumi_west_circles_1992",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:5070",
+        "crs_transform": [
+          30,
+          0,
+          -2361600,
+          0,
+          -30,
+          3177450
+        ],
+        "dimensions": [
+          61900,
+          72855
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/bccbi_wumi_west_circles/bccbi_wumi_west_circles_1993",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:5070",
+        "crs_transform": [
+          30,
+          0,
+          -2361600,
+          0,
+          -30,
+          3177450
+        ],
+        "dimensions": [
+          61900,
+          72855
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/bccbi_wumi_west_circles/bccbi_wumi_west_circles_1994",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:5070",
+        "crs_transform": [
+          30,
+          0,
+          -2361600,
+          0,
+          -30,
+          3177450
+        ],
+        "dimensions": [
+          61900,
+          72855
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/bccbi_wumi_west_circles/bccbi_wumi_west_circles_1995",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:5070",
+        "crs_transform": [
+          30,
+          0,
+          -2361600,
+          0,
+          -30,
+          3177450
+        ],
+        "dimensions": [
+          61900,
+          72855
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/bccbi_wumi_west_circles/bccbi_wumi_west_circles_1996",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:5070",
+        "crs_transform": [
+          30,
+          0,
+          -2361600,
+          0,
+          -30,
+          3177450
+        ],
+        "dimensions": [
+          61900,
+          72855
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/bccbi_wumi_west_circles/bccbi_wumi_west_circles_1997",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:5070",
+        "crs_transform": [
+          30,
+          0,
+          -2361600,
+          0,
+          -30,
+          3177450
+        ],
+        "dimensions": [
+          61900,
+          72855
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/bccbi_wumi_west_circles/bccbi_wumi_west_circles_1998",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:5070",
+        "crs_transform": [
+          30,
+          0,
+          -2361600,
+          0,
+          -30,
+          3177450
+        ],
+        "dimensions": [
+          61900,
+          72855
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/bccbi_wumi_west_circles/bccbi_wumi_west_circles_1999",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:5070",
+        "crs_transform": [
+          30,
+          0,
+          -2361600,
+          0,
+          -30,
+          3177450
+        ],
+        "dimensions": [
+          61900,
+          72855
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/bccbi_wumi_west_circles/bccbi_wumi_west_circles_2000",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:5070",
+        "crs_transform": [
+          30,
+          0,
+          -2361600,
+          0,
+          -30,
+          3177450
+        ],
+        "dimensions": [
+          61900,
+          72855
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/bccbi_wumi_west_circles/bccbi_wumi_west_circles_2001",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:5070",
+        "crs_transform": [
+          30,
+          0,
+          -2361600,
+          0,
+          -30,
+          3177450
+        ],
+        "dimensions": [
+          61900,
+          72855
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/bccbi_wumi_west_circles/bccbi_wumi_west_circles_2002",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:5070",
+        "crs_transform": [
+          30,
+          0,
+          -2361600,
+          0,
+          -30,
+          3177450
+        ],
+        "dimensions": [
+          61900,
+          72855
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/bccbi_wumi_west_circles/bccbi_wumi_west_circles_2003",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:5070",
+        "crs_transform": [
+          30,
+          0,
+          -2361600,
+          0,
+          -30,
+          3177450
+        ],
+        "dimensions": [
+          61900,
+          72855
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/bccbi_wumi_west_circles/bccbi_wumi_west_circles_2004",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:5070",
+        "crs_transform": [
+          30,
+          0,
+          -2361600,
+          0,
+          -30,
+          3177450
+        ],
+        "dimensions": [
+          61900,
+          72855
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/bccbi_wumi_west_circles/bccbi_wumi_west_circles_2005",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:5070",
+        "crs_transform": [
+          30,
+          0,
+          -2361600,
+          0,
+          -30,
+          3177450
+        ],
+        "dimensions": [
+          61900,
+          72855
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/bccbi_wumi_west_circles/bccbi_wumi_west_circles_2006",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:5070",
+        "crs_transform": [
+          30,
+          0,
+          -2361600,
+          0,
+          -30,
+          3177450
+        ],
+        "dimensions": [
+          61900,
+          72855
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/bccbi_wumi_west_circles/bccbi_wumi_west_circles_2007",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:5070",
+        "crs_transform": [
+          30,
+          0,
+          -2361600,
+          0,
+          -30,
+          3177450
+        ],
+        "dimensions": [
+          61900,
+          72855
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/bccbi_wumi_west_circles/bccbi_wumi_west_circles_2008",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:5070",
+        "crs_transform": [
+          30,
+          0,
+          -2361600,
+          0,
+          -30,
+          3177450
+        ],
+        "dimensions": [
+          61900,
+          72855
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/bccbi_wumi_west_circles/bccbi_wumi_west_circles_2009",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:5070",
+        "crs_transform": [
+          30,
+          0,
+          -2361600,
+          0,
+          -30,
+          3177450
+        ],
+        "dimensions": [
+          61900,
+          72855
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/bccbi_wumi_west_circles/bccbi_wumi_west_circles_2010",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:5070",
+        "crs_transform": [
+          30,
+          0,
+          -2361600,
+          0,
+          -30,
+          3177450
+        ],
+        "dimensions": [
+          61900,
+          72855
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/bccbi_wumi_west_circles/bccbi_wumi_west_circles_2011",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:5070",
+        "crs_transform": [
+          30,
+          0,
+          -2361600,
+          0,
+          -30,
+          3177450
+        ],
+        "dimensions": [
+          61900,
+          72855
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/bccbi_wumi_west_circles/bccbi_wumi_west_circles_2012",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:5070",
+        "crs_transform": [
+          30,
+          0,
+          -2361600,
+          0,
+          -30,
+          3177450
+        ],
+        "dimensions": [
+          61900,
+          72855
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/bccbi_wumi_west_circles/bccbi_wumi_west_circles_2013",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:5070",
+        "crs_transform": [
+          30,
+          0,
+          -2361600,
+          0,
+          -30,
+          3177450
+        ],
+        "dimensions": [
+          61900,
+          72855
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/bccbi_wumi_west_circles/bccbi_wumi_west_circles_2014",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:5070",
+        "crs_transform": [
+          30,
+          0,
+          -2361600,
+          0,
+          -30,
+          3177450
+        ],
+        "dimensions": [
+          61900,
+          72855
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/bccbi_wumi_west_circles/bccbi_wumi_west_circles_2015",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:5070",
+        "crs_transform": [
+          30,
+          0,
+          -2361600,
+          0,
+          -30,
+          3177450
+        ],
+        "dimensions": [
+          61900,
+          72855
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/bccbi_wumi_west_circles/bccbi_wumi_west_circles_2016",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:5070",
+        "crs_transform": [
+          30,
+          0,
+          -2361600,
+          0,
+          -30,
+          3177450
+        ],
+        "dimensions": [
+          61900,
+          72855
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/bccbi_wumi_west_circles/bccbi_wumi_west_circles_2017",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:5070",
+        "crs_transform": [
+          30,
+          0,
+          -2361600,
+          0,
+          -30,
+          3177450
+        ],
+        "dimensions": [
+          61900,
+          72855
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/bccbi_wumi_west_circles/bccbi_wumi_west_circles_2018",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:5070",
+        "crs_transform": [
+          30,
+          0,
+          -2361600,
+          0,
+          -30,
+          3177450
+        ],
+        "dimensions": [
+          61900,
+          72855
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/bccbi_wumi_west_circles/bccbi_wumi_west_circles_2019",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:5070",
+        "crs_transform": [
+          30,
+          0,
+          -2361600,
+          0,
+          -30,
+          3177450
+        ],
+        "dimensions": [
+          61900,
+          72855
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/bccbi_wumi_west_circles/bccbi_wumi_west_circles_2020",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:5070",
+        "crs_transform": [
+          30,
+          0,
+          -2361600,
+          0,
+          -30,
+          3177450
+        ],
+        "dimensions": [
+          61900,
+          72855
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/bccbi_wumi_west_circles/bccbi_wumi_west_circles_2021",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:5070",
+        "crs_transform": [
+          30,
+          0,
+          -2361600,
+          0,
+          -30,
+          3177450
+        ],
+        "dimensions": [
+          61900,
+          72855
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/bccbi_wumi_west_circles/bccbi_wumi_west_circles_2022",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:5070",
+        "crs_transform": [
+          30,
+          0,
+          -2361600,
+          0,
+          -30,
+          3177450
+        ],
+        "dimensions": [
+          61900,
+          72855
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/bccbi_wumi_west_circles/bccbi_wumi_west_circles_2023",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:5070",
+        "crs_transform": [
+          30,
+          0,
+          -2361600,
+          0,
+          -30,
+          3177450
+        ],
+        "dimensions": [
+          61900,
+          72855
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/bccbi_wumi_west_circles/bccbi_wumi_west_circles_2024",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:5070",
+        "crs_transform": [
+          30,
+          0,
+          -2361600,
+          0,
+          -30,
+          3177450
+        ],
+        "dimensions": [
+          61900,
+          72855
+        ]
+      }
+    ]
+  },
+  {
+    "collection_id": "projects/ee-tymc5571-cbi-module/assets/bccbi_wumi_west_nocircles",
+    "n_images": 40,
+    "unique_crs": 1,
+    "unique_transforms": 1,
+    "crs_counts": {
+      "EPSG:5070": 40
+    },
+    "transform_counts": {
+      "(30, 0, -2361600, 0, -30, 3177450)": 40
+    },
+    "records": [
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/bccbi_wumi_west_nocircles/bccbi_wumi_west_nocircles_1985",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:5070",
+        "crs_transform": [
+          30,
+          0,
+          -2361600,
+          0,
+          -30,
+          3177450
+        ],
+        "dimensions": [
+          61900,
+          72855
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/bccbi_wumi_west_nocircles/bccbi_wumi_west_nocircles_1986",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:5070",
+        "crs_transform": [
+          30,
+          0,
+          -2361600,
+          0,
+          -30,
+          3177450
+        ],
+        "dimensions": [
+          61900,
+          72855
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/bccbi_wumi_west_nocircles/bccbi_wumi_west_nocircles_1987",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:5070",
+        "crs_transform": [
+          30,
+          0,
+          -2361600,
+          0,
+          -30,
+          3177450
+        ],
+        "dimensions": [
+          61900,
+          72855
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/bccbi_wumi_west_nocircles/bccbi_wumi_west_nocircles_1988",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:5070",
+        "crs_transform": [
+          30,
+          0,
+          -2361600,
+          0,
+          -30,
+          3177450
+        ],
+        "dimensions": [
+          61900,
+          72855
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/bccbi_wumi_west_nocircles/bccbi_wumi_west_nocircles_1989",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:5070",
+        "crs_transform": [
+          30,
+          0,
+          -2361600,
+          0,
+          -30,
+          3177450
+        ],
+        "dimensions": [
+          61900,
+          72855
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/bccbi_wumi_west_nocircles/bccbi_wumi_west_nocircles_1990",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:5070",
+        "crs_transform": [
+          30,
+          0,
+          -2361600,
+          0,
+          -30,
+          3177450
+        ],
+        "dimensions": [
+          61900,
+          72855
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/bccbi_wumi_west_nocircles/bccbi_wumi_west_nocircles_1991",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:5070",
+        "crs_transform": [
+          30,
+          0,
+          -2361600,
+          0,
+          -30,
+          3177450
+        ],
+        "dimensions": [
+          61900,
+          72855
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/bccbi_wumi_west_nocircles/bccbi_wumi_west_nocircles_1992",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:5070",
+        "crs_transform": [
+          30,
+          0,
+          -2361600,
+          0,
+          -30,
+          3177450
+        ],
+        "dimensions": [
+          61900,
+          72855
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/bccbi_wumi_west_nocircles/bccbi_wumi_west_nocircles_1993",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:5070",
+        "crs_transform": [
+          30,
+          0,
+          -2361600,
+          0,
+          -30,
+          3177450
+        ],
+        "dimensions": [
+          61900,
+          72855
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/bccbi_wumi_west_nocircles/bccbi_wumi_west_nocircles_1994",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:5070",
+        "crs_transform": [
+          30,
+          0,
+          -2361600,
+          0,
+          -30,
+          3177450
+        ],
+        "dimensions": [
+          61900,
+          72855
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/bccbi_wumi_west_nocircles/bccbi_wumi_west_nocircles_1995",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:5070",
+        "crs_transform": [
+          30,
+          0,
+          -2361600,
+          0,
+          -30,
+          3177450
+        ],
+        "dimensions": [
+          61900,
+          72855
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/bccbi_wumi_west_nocircles/bccbi_wumi_west_nocircles_1996",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:5070",
+        "crs_transform": [
+          30,
+          0,
+          -2361600,
+          0,
+          -30,
+          3177450
+        ],
+        "dimensions": [
+          61900,
+          72855
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/bccbi_wumi_west_nocircles/bccbi_wumi_west_nocircles_1997",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:5070",
+        "crs_transform": [
+          30,
+          0,
+          -2361600,
+          0,
+          -30,
+          3177450
+        ],
+        "dimensions": [
+          61900,
+          72855
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/bccbi_wumi_west_nocircles/bccbi_wumi_west_nocircles_1998",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:5070",
+        "crs_transform": [
+          30,
+          0,
+          -2361600,
+          0,
+          -30,
+          3177450
+        ],
+        "dimensions": [
+          61900,
+          72855
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/bccbi_wumi_west_nocircles/bccbi_wumi_west_nocircles_1999",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:5070",
+        "crs_transform": [
+          30,
+          0,
+          -2361600,
+          0,
+          -30,
+          3177450
+        ],
+        "dimensions": [
+          61900,
+          72855
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/bccbi_wumi_west_nocircles/bccbi_wumi_west_nocircles_2000",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:5070",
+        "crs_transform": [
+          30,
+          0,
+          -2361600,
+          0,
+          -30,
+          3177450
+        ],
+        "dimensions": [
+          61900,
+          72855
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/bccbi_wumi_west_nocircles/bccbi_wumi_west_nocircles_2001",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:5070",
+        "crs_transform": [
+          30,
+          0,
+          -2361600,
+          0,
+          -30,
+          3177450
+        ],
+        "dimensions": [
+          61900,
+          72855
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/bccbi_wumi_west_nocircles/bccbi_wumi_west_nocircles_2002",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:5070",
+        "crs_transform": [
+          30,
+          0,
+          -2361600,
+          0,
+          -30,
+          3177450
+        ],
+        "dimensions": [
+          61900,
+          72855
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/bccbi_wumi_west_nocircles/bccbi_wumi_west_nocircles_2003",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:5070",
+        "crs_transform": [
+          30,
+          0,
+          -2361600,
+          0,
+          -30,
+          3177450
+        ],
+        "dimensions": [
+          61900,
+          72855
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/bccbi_wumi_west_nocircles/bccbi_wumi_west_nocircles_2004",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:5070",
+        "crs_transform": [
+          30,
+          0,
+          -2361600,
+          0,
+          -30,
+          3177450
+        ],
+        "dimensions": [
+          61900,
+          72855
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/bccbi_wumi_west_nocircles/bccbi_wumi_west_nocircles_2005",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:5070",
+        "crs_transform": [
+          30,
+          0,
+          -2361600,
+          0,
+          -30,
+          3177450
+        ],
+        "dimensions": [
+          61900,
+          72855
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/bccbi_wumi_west_nocircles/bccbi_wumi_west_nocircles_2006",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:5070",
+        "crs_transform": [
+          30,
+          0,
+          -2361600,
+          0,
+          -30,
+          3177450
+        ],
+        "dimensions": [
+          61900,
+          72855
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/bccbi_wumi_west_nocircles/bccbi_wumi_west_nocircles_2007",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:5070",
+        "crs_transform": [
+          30,
+          0,
+          -2361600,
+          0,
+          -30,
+          3177450
+        ],
+        "dimensions": [
+          61900,
+          72855
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/bccbi_wumi_west_nocircles/bccbi_wumi_west_nocircles_2008",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:5070",
+        "crs_transform": [
+          30,
+          0,
+          -2361600,
+          0,
+          -30,
+          3177450
+        ],
+        "dimensions": [
+          61900,
+          72855
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/bccbi_wumi_west_nocircles/bccbi_wumi_west_nocircles_2009",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:5070",
+        "crs_transform": [
+          30,
+          0,
+          -2361600,
+          0,
+          -30,
+          3177450
+        ],
+        "dimensions": [
+          61900,
+          72855
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/bccbi_wumi_west_nocircles/bccbi_wumi_west_nocircles_2010",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:5070",
+        "crs_transform": [
+          30,
+          0,
+          -2361600,
+          0,
+          -30,
+          3177450
+        ],
+        "dimensions": [
+          61900,
+          72855
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/bccbi_wumi_west_nocircles/bccbi_wumi_west_nocircles_2011",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:5070",
+        "crs_transform": [
+          30,
+          0,
+          -2361600,
+          0,
+          -30,
+          3177450
+        ],
+        "dimensions": [
+          61900,
+          72855
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/bccbi_wumi_west_nocircles/bccbi_wumi_west_nocircles_2012",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:5070",
+        "crs_transform": [
+          30,
+          0,
+          -2361600,
+          0,
+          -30,
+          3177450
+        ],
+        "dimensions": [
+          61900,
+          72855
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/bccbi_wumi_west_nocircles/bccbi_wumi_west_nocircles_2013",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:5070",
+        "crs_transform": [
+          30,
+          0,
+          -2361600,
+          0,
+          -30,
+          3177450
+        ],
+        "dimensions": [
+          61900,
+          72855
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/bccbi_wumi_west_nocircles/bccbi_wumi_west_nocircles_2014",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:5070",
+        "crs_transform": [
+          30,
+          0,
+          -2361600,
+          0,
+          -30,
+          3177450
+        ],
+        "dimensions": [
+          61900,
+          72855
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/bccbi_wumi_west_nocircles/bccbi_wumi_west_nocircles_2015",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:5070",
+        "crs_transform": [
+          30,
+          0,
+          -2361600,
+          0,
+          -30,
+          3177450
+        ],
+        "dimensions": [
+          61900,
+          72855
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/bccbi_wumi_west_nocircles/bccbi_wumi_west_nocircles_2016",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:5070",
+        "crs_transform": [
+          30,
+          0,
+          -2361600,
+          0,
+          -30,
+          3177450
+        ],
+        "dimensions": [
+          61900,
+          72855
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/bccbi_wumi_west_nocircles/bccbi_wumi_west_nocircles_2017",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:5070",
+        "crs_transform": [
+          30,
+          0,
+          -2361600,
+          0,
+          -30,
+          3177450
+        ],
+        "dimensions": [
+          61900,
+          72855
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/bccbi_wumi_west_nocircles/bccbi_wumi_west_nocircles_2018",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:5070",
+        "crs_transform": [
+          30,
+          0,
+          -2361600,
+          0,
+          -30,
+          3177450
+        ],
+        "dimensions": [
+          61900,
+          72855
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/bccbi_wumi_west_nocircles/bccbi_wumi_west_nocircles_2019",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:5070",
+        "crs_transform": [
+          30,
+          0,
+          -2361600,
+          0,
+          -30,
+          3177450
+        ],
+        "dimensions": [
+          61900,
+          72855
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/bccbi_wumi_west_nocircles/bccbi_wumi_west_nocircles_2020",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:5070",
+        "crs_transform": [
+          30,
+          0,
+          -2361600,
+          0,
+          -30,
+          3177450
+        ],
+        "dimensions": [
+          61900,
+          72855
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/bccbi_wumi_west_nocircles/bccbi_wumi_west_nocircles_2021",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:5070",
+        "crs_transform": [
+          30,
+          0,
+          -2361600,
+          0,
+          -30,
+          3177450
+        ],
+        "dimensions": [
+          61900,
+          72855
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/bccbi_wumi_west_nocircles/bccbi_wumi_west_nocircles_2022",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:5070",
+        "crs_transform": [
+          30,
+          0,
+          -2361600,
+          0,
+          -30,
+          3177450
+        ],
+        "dimensions": [
+          61900,
+          72855
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/bccbi_wumi_west_nocircles/bccbi_wumi_west_nocircles_2023",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:5070",
+        "crs_transform": [
+          30,
+          0,
+          -2361600,
+          0,
+          -30,
+          3177450
+        ],
+        "dimensions": [
+          61900,
+          72855
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/bccbi_wumi_west_nocircles/bccbi_wumi_west_nocircles_2024",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:5070",
+        "crs_transform": [
+          30,
+          0,
+          -2361600,
+          0,
+          -30,
+          3177450
+        ],
+        "dimensions": [
+          61900,
+          72855
+        ]
+      }
+    ]
+  },
+  {
+    "collection_id": "projects/ee-tymc5571-cbi-module/assets/west_wall_to_wall_bccbi",
+    "n_images": 40,
+    "unique_crs": 1,
+    "unique_transforms": 1,
+    "crs_counts": {
+      "EPSG:4326": 40
+    },
+    "transform_counts": {
+      "(0.00026949458523585647, 0, -124.84902599680046, 0, -0.00026949458523585647, 49.00246992802102)": 40
+    },
+    "records": [
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/west_wall_to_wall_bccbi/west_wall_to_wall_bccbi_1985",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:4326",
+        "crs_transform": [
+          0.00026949458523585647,
+          0,
+          -124.84902599680046,
+          0,
+          -0.00026949458523585647,
+          49.00246992802102
+        ],
+        "dimensions": [
+          84631,
+          65569
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/west_wall_to_wall_bccbi/west_wall_to_wall_bccbi_1986",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:4326",
+        "crs_transform": [
+          0.00026949458523585647,
+          0,
+          -124.84902599680046,
+          0,
+          -0.00026949458523585647,
+          49.00246992802102
+        ],
+        "dimensions": [
+          84631,
+          65569
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/west_wall_to_wall_bccbi/west_wall_to_wall_bccbi_1987",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:4326",
+        "crs_transform": [
+          0.00026949458523585647,
+          0,
+          -124.84902599680046,
+          0,
+          -0.00026949458523585647,
+          49.00246992802102
+        ],
+        "dimensions": [
+          84631,
+          65569
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/west_wall_to_wall_bccbi/west_wall_to_wall_bccbi_1988",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:4326",
+        "crs_transform": [
+          0.00026949458523585647,
+          0,
+          -124.84902599680046,
+          0,
+          -0.00026949458523585647,
+          49.00246992802102
+        ],
+        "dimensions": [
+          84631,
+          65569
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/west_wall_to_wall_bccbi/west_wall_to_wall_bccbi_1989",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:4326",
+        "crs_transform": [
+          0.00026949458523585647,
+          0,
+          -124.84902599680046,
+          0,
+          -0.00026949458523585647,
+          49.00246992802102
+        ],
+        "dimensions": [
+          84631,
+          65569
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/west_wall_to_wall_bccbi/west_wall_to_wall_bccbi_1990",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:4326",
+        "crs_transform": [
+          0.00026949458523585647,
+          0,
+          -124.84902599680046,
+          0,
+          -0.00026949458523585647,
+          49.00246992802102
+        ],
+        "dimensions": [
+          84631,
+          65569
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/west_wall_to_wall_bccbi/west_wall_to_wall_bccbi_1991",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:4326",
+        "crs_transform": [
+          0.00026949458523585647,
+          0,
+          -124.84902599680046,
+          0,
+          -0.00026949458523585647,
+          49.00246992802102
+        ],
+        "dimensions": [
+          84631,
+          65569
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/west_wall_to_wall_bccbi/west_wall_to_wall_bccbi_1992",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:4326",
+        "crs_transform": [
+          0.00026949458523585647,
+          0,
+          -124.84902599680046,
+          0,
+          -0.00026949458523585647,
+          49.00246992802102
+        ],
+        "dimensions": [
+          84631,
+          65569
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/west_wall_to_wall_bccbi/west_wall_to_wall_bccbi_1993",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:4326",
+        "crs_transform": [
+          0.00026949458523585647,
+          0,
+          -124.84902599680046,
+          0,
+          -0.00026949458523585647,
+          49.00246992802102
+        ],
+        "dimensions": [
+          84631,
+          65569
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/west_wall_to_wall_bccbi/west_wall_to_wall_bccbi_1994",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:4326",
+        "crs_transform": [
+          0.00026949458523585647,
+          0,
+          -124.84902599680046,
+          0,
+          -0.00026949458523585647,
+          49.00246992802102
+        ],
+        "dimensions": [
+          84631,
+          65569
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/west_wall_to_wall_bccbi/west_wall_to_wall_bccbi_1995",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:4326",
+        "crs_transform": [
+          0.00026949458523585647,
+          0,
+          -124.84902599680046,
+          0,
+          -0.00026949458523585647,
+          49.00246992802102
+        ],
+        "dimensions": [
+          84631,
+          65569
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/west_wall_to_wall_bccbi/west_wall_to_wall_bccbi_1996",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:4326",
+        "crs_transform": [
+          0.00026949458523585647,
+          0,
+          -124.84902599680046,
+          0,
+          -0.00026949458523585647,
+          49.00246992802102
+        ],
+        "dimensions": [
+          84631,
+          65569
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/west_wall_to_wall_bccbi/west_wall_to_wall_bccbi_1997",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:4326",
+        "crs_transform": [
+          0.00026949458523585647,
+          0,
+          -124.84902599680046,
+          0,
+          -0.00026949458523585647,
+          49.00246992802102
+        ],
+        "dimensions": [
+          84631,
+          65569
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/west_wall_to_wall_bccbi/west_wall_to_wall_bccbi_1998",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:4326",
+        "crs_transform": [
+          0.00026949458523585647,
+          0,
+          -124.84902599680046,
+          0,
+          -0.00026949458523585647,
+          49.00246992802102
+        ],
+        "dimensions": [
+          84631,
+          65569
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/west_wall_to_wall_bccbi/west_wall_to_wall_bccbi_1999",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:4326",
+        "crs_transform": [
+          0.00026949458523585647,
+          0,
+          -124.84902599680046,
+          0,
+          -0.00026949458523585647,
+          49.00246992802102
+        ],
+        "dimensions": [
+          84631,
+          65569
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/west_wall_to_wall_bccbi/west_wall_to_wall_bccbi_2000",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:4326",
+        "crs_transform": [
+          0.00026949458523585647,
+          0,
+          -124.84902599680046,
+          0,
+          -0.00026949458523585647,
+          49.00246992802102
+        ],
+        "dimensions": [
+          84631,
+          65569
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/west_wall_to_wall_bccbi/west_wall_to_wall_bccbi_2001",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:4326",
+        "crs_transform": [
+          0.00026949458523585647,
+          0,
+          -124.84902599680046,
+          0,
+          -0.00026949458523585647,
+          49.00246992802102
+        ],
+        "dimensions": [
+          84631,
+          65569
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/west_wall_to_wall_bccbi/west_wall_to_wall_bccbi_2002",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:4326",
+        "crs_transform": [
+          0.00026949458523585647,
+          0,
+          -124.84902599680046,
+          0,
+          -0.00026949458523585647,
+          49.00246992802102
+        ],
+        "dimensions": [
+          84631,
+          65569
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/west_wall_to_wall_bccbi/west_wall_to_wall_bccbi_2003",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:4326",
+        "crs_transform": [
+          0.00026949458523585647,
+          0,
+          -124.84902599680046,
+          0,
+          -0.00026949458523585647,
+          49.00246992802102
+        ],
+        "dimensions": [
+          84631,
+          65569
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/west_wall_to_wall_bccbi/west_wall_to_wall_bccbi_2004",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:4326",
+        "crs_transform": [
+          0.00026949458523585647,
+          0,
+          -124.84902599680046,
+          0,
+          -0.00026949458523585647,
+          49.00246992802102
+        ],
+        "dimensions": [
+          84631,
+          65569
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/west_wall_to_wall_bccbi/west_wall_to_wall_bccbi_2005",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:4326",
+        "crs_transform": [
+          0.00026949458523585647,
+          0,
+          -124.84902599680046,
+          0,
+          -0.00026949458523585647,
+          49.00246992802102
+        ],
+        "dimensions": [
+          84631,
+          65569
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/west_wall_to_wall_bccbi/west_wall_to_wall_bccbi_2006",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:4326",
+        "crs_transform": [
+          0.00026949458523585647,
+          0,
+          -124.84902599680046,
+          0,
+          -0.00026949458523585647,
+          49.00246992802102
+        ],
+        "dimensions": [
+          84631,
+          65569
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/west_wall_to_wall_bccbi/west_wall_to_wall_bccbi_2007",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:4326",
+        "crs_transform": [
+          0.00026949458523585647,
+          0,
+          -124.84902599680046,
+          0,
+          -0.00026949458523585647,
+          49.00246992802102
+        ],
+        "dimensions": [
+          84631,
+          65569
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/west_wall_to_wall_bccbi/west_wall_to_wall_bccbi_2008",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:4326",
+        "crs_transform": [
+          0.00026949458523585647,
+          0,
+          -124.84902599680046,
+          0,
+          -0.00026949458523585647,
+          49.00246992802102
+        ],
+        "dimensions": [
+          84631,
+          65569
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/west_wall_to_wall_bccbi/west_wall_to_wall_bccbi_2009",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:4326",
+        "crs_transform": [
+          0.00026949458523585647,
+          0,
+          -124.84902599680046,
+          0,
+          -0.00026949458523585647,
+          49.00246992802102
+        ],
+        "dimensions": [
+          84631,
+          65569
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/west_wall_to_wall_bccbi/west_wall_to_wall_bccbi_2010",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:4326",
+        "crs_transform": [
+          0.00026949458523585647,
+          0,
+          -124.84902599680046,
+          0,
+          -0.00026949458523585647,
+          49.00246992802102
+        ],
+        "dimensions": [
+          84631,
+          65569
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/west_wall_to_wall_bccbi/west_wall_to_wall_bccbi_2011",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:4326",
+        "crs_transform": [
+          0.00026949458523585647,
+          0,
+          -124.84902599680046,
+          0,
+          -0.00026949458523585647,
+          49.00246992802102
+        ],
+        "dimensions": [
+          84631,
+          65569
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/west_wall_to_wall_bccbi/west_wall_to_wall_bccbi_2012",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:4326",
+        "crs_transform": [
+          0.00026949458523585647,
+          0,
+          -124.84902599680046,
+          0,
+          -0.00026949458523585647,
+          49.00246992802102
+        ],
+        "dimensions": [
+          84631,
+          65569
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/west_wall_to_wall_bccbi/west_wall_to_wall_bccbi_2013",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:4326",
+        "crs_transform": [
+          0.00026949458523585647,
+          0,
+          -124.84902599680046,
+          0,
+          -0.00026949458523585647,
+          49.00246992802102
+        ],
+        "dimensions": [
+          84631,
+          65569
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/west_wall_to_wall_bccbi/west_wall_to_wall_bccbi_2014",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:4326",
+        "crs_transform": [
+          0.00026949458523585647,
+          0,
+          -124.84902599680046,
+          0,
+          -0.00026949458523585647,
+          49.00246992802102
+        ],
+        "dimensions": [
+          84631,
+          65569
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/west_wall_to_wall_bccbi/west_wall_to_wall_bccbi_2015",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:4326",
+        "crs_transform": [
+          0.00026949458523585647,
+          0,
+          -124.84902599680046,
+          0,
+          -0.00026949458523585647,
+          49.00246992802102
+        ],
+        "dimensions": [
+          84631,
+          65569
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/west_wall_to_wall_bccbi/west_wall_to_wall_bccbi_2016",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:4326",
+        "crs_transform": [
+          0.00026949458523585647,
+          0,
+          -124.84902599680046,
+          0,
+          -0.00026949458523585647,
+          49.00246992802102
+        ],
+        "dimensions": [
+          84631,
+          65569
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/west_wall_to_wall_bccbi/west_wall_to_wall_bccbi_2017",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:4326",
+        "crs_transform": [
+          0.00026949458523585647,
+          0,
+          -124.84902599680046,
+          0,
+          -0.00026949458523585647,
+          49.00246992802102
+        ],
+        "dimensions": [
+          84631,
+          65569
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/west_wall_to_wall_bccbi/west_wall_to_wall_bccbi_2018",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:4326",
+        "crs_transform": [
+          0.00026949458523585647,
+          0,
+          -124.84902599680046,
+          0,
+          -0.00026949458523585647,
+          49.00246992802102
+        ],
+        "dimensions": [
+          84631,
+          65569
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/west_wall_to_wall_bccbi/west_wall_to_wall_bccbi_2019",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:4326",
+        "crs_transform": [
+          0.00026949458523585647,
+          0,
+          -124.84902599680046,
+          0,
+          -0.00026949458523585647,
+          49.00246992802102
+        ],
+        "dimensions": [
+          84631,
+          65569
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/west_wall_to_wall_bccbi/west_wall_to_wall_bccbi_2020",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:4326",
+        "crs_transform": [
+          0.00026949458523585647,
+          0,
+          -124.84902599680046,
+          0,
+          -0.00026949458523585647,
+          49.00246992802102
+        ],
+        "dimensions": [
+          84631,
+          65569
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/west_wall_to_wall_bccbi/west_wall_to_wall_bccbi_2021",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:4326",
+        "crs_transform": [
+          0.00026949458523585647,
+          0,
+          -124.84902599680046,
+          0,
+          -0.00026949458523585647,
+          49.00246992802102
+        ],
+        "dimensions": [
+          84631,
+          65569
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/west_wall_to_wall_bccbi/west_wall_to_wall_bccbi_2022",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:4326",
+        "crs_transform": [
+          0.00026949458523585647,
+          0,
+          -124.84902599680046,
+          0,
+          -0.00026949458523585647,
+          49.00246992802102
+        ],
+        "dimensions": [
+          84631,
+          65569
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/west_wall_to_wall_bccbi/west_wall_to_wall_bccbi_2023",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:4326",
+        "crs_transform": [
+          0.00026949458523585647,
+          0,
+          -124.84902599680046,
+          0,
+          -0.00026949458523585647,
+          49.00246992802102
+        ],
+        "dimensions": [
+          84631,
+          65569
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/west_wall_to_wall_bccbi/west_wall_to_wall_bccbi_2024",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:4326",
+        "crs_transform": [
+          0.00026949458523585647,
+          0,
+          -124.84902599680046,
+          0,
+          -0.00026949458523585647,
+          49.00246992802102
+        ],
+        "dimensions": [
+          84631,
+          65569
+        ]
+      }
+    ]
+  },
+  {
+    "collection_id": "projects/ee-tymc5571-cbi-module/assets/WUMI2024a_allsev",
+    "n_images": 40,
+    "unique_crs": 1,
+    "unique_transforms": 1,
+    "crs_counts": {
+      "EPSG:4326": 40
+    },
+    "transform_counts": {
+      "(0.00026949458523585647, 0, -124.84902599680046, 0, -0.00026949458523585647, 49.00246992802102)": 40
+    },
+    "records": [
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/WUMI2024a_allsev/WUMI2024a_allsev_1985",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:4326",
+        "crs_transform": [
+          0.00026949458523585647,
+          0,
+          -124.84902599680046,
+          0,
+          -0.00026949458523585647,
+          49.00246992802102
+        ],
+        "dimensions": [
+          84631,
+          65569
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/WUMI2024a_allsev/WUMI2024a_allsev_1986",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:4326",
+        "crs_transform": [
+          0.00026949458523585647,
+          0,
+          -124.84902599680046,
+          0,
+          -0.00026949458523585647,
+          49.00246992802102
+        ],
+        "dimensions": [
+          84631,
+          65569
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/WUMI2024a_allsev/WUMI2024a_allsev_1987",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:4326",
+        "crs_transform": [
+          0.00026949458523585647,
+          0,
+          -124.84902599680046,
+          0,
+          -0.00026949458523585647,
+          49.00246992802102
+        ],
+        "dimensions": [
+          84631,
+          65569
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/WUMI2024a_allsev/WUMI2024a_allsev_1988",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:4326",
+        "crs_transform": [
+          0.00026949458523585647,
+          0,
+          -124.84902599680046,
+          0,
+          -0.00026949458523585647,
+          49.00246992802102
+        ],
+        "dimensions": [
+          84631,
+          65569
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/WUMI2024a_allsev/WUMI2024a_allsev_1989",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:4326",
+        "crs_transform": [
+          0.00026949458523585647,
+          0,
+          -124.84902599680046,
+          0,
+          -0.00026949458523585647,
+          49.00246992802102
+        ],
+        "dimensions": [
+          84631,
+          65569
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/WUMI2024a_allsev/WUMI2024a_allsev_1990",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:4326",
+        "crs_transform": [
+          0.00026949458523585647,
+          0,
+          -124.84902599680046,
+          0,
+          -0.00026949458523585647,
+          49.00246992802102
+        ],
+        "dimensions": [
+          84631,
+          65569
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/WUMI2024a_allsev/WUMI2024a_allsev_1991",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:4326",
+        "crs_transform": [
+          0.00026949458523585647,
+          0,
+          -124.84902599680046,
+          0,
+          -0.00026949458523585647,
+          49.00246992802102
+        ],
+        "dimensions": [
+          84631,
+          65569
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/WUMI2024a_allsev/WUMI2024a_allsev_1992",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:4326",
+        "crs_transform": [
+          0.00026949458523585647,
+          0,
+          -124.84902599680046,
+          0,
+          -0.00026949458523585647,
+          49.00246992802102
+        ],
+        "dimensions": [
+          84631,
+          65569
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/WUMI2024a_allsev/WUMI2024a_allsev_1993",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:4326",
+        "crs_transform": [
+          0.00026949458523585647,
+          0,
+          -124.84902599680046,
+          0,
+          -0.00026949458523585647,
+          49.00246992802102
+        ],
+        "dimensions": [
+          84631,
+          65569
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/WUMI2024a_allsev/WUMI2024a_allsev_1994",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:4326",
+        "crs_transform": [
+          0.00026949458523585647,
+          0,
+          -124.84902599680046,
+          0,
+          -0.00026949458523585647,
+          49.00246992802102
+        ],
+        "dimensions": [
+          84631,
+          65569
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/WUMI2024a_allsev/WUMI2024a_allsev_1995",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:4326",
+        "crs_transform": [
+          0.00026949458523585647,
+          0,
+          -124.84902599680046,
+          0,
+          -0.00026949458523585647,
+          49.00246992802102
+        ],
+        "dimensions": [
+          84631,
+          65569
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/WUMI2024a_allsev/WUMI2024a_allsev_1996",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:4326",
+        "crs_transform": [
+          0.00026949458523585647,
+          0,
+          -124.84902599680046,
+          0,
+          -0.00026949458523585647,
+          49.00246992802102
+        ],
+        "dimensions": [
+          84631,
+          65569
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/WUMI2024a_allsev/WUMI2024a_allsev_1997",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:4326",
+        "crs_transform": [
+          0.00026949458523585647,
+          0,
+          -124.84902599680046,
+          0,
+          -0.00026949458523585647,
+          49.00246992802102
+        ],
+        "dimensions": [
+          84631,
+          65569
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/WUMI2024a_allsev/WUMI2024a_allsev_1998",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:4326",
+        "crs_transform": [
+          0.00026949458523585647,
+          0,
+          -124.84902599680046,
+          0,
+          -0.00026949458523585647,
+          49.00246992802102
+        ],
+        "dimensions": [
+          84631,
+          65569
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/WUMI2024a_allsev/WUMI2024a_allsev_1999",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:4326",
+        "crs_transform": [
+          0.00026949458523585647,
+          0,
+          -124.84902599680046,
+          0,
+          -0.00026949458523585647,
+          49.00246992802102
+        ],
+        "dimensions": [
+          84631,
+          65569
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/WUMI2024a_allsev/WUMI2024a_allsev_2000",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:4326",
+        "crs_transform": [
+          0.00026949458523585647,
+          0,
+          -124.84902599680046,
+          0,
+          -0.00026949458523585647,
+          49.00246992802102
+        ],
+        "dimensions": [
+          84631,
+          65569
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/WUMI2024a_allsev/WUMI2024a_allsev_2001",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:4326",
+        "crs_transform": [
+          0.00026949458523585647,
+          0,
+          -124.84902599680046,
+          0,
+          -0.00026949458523585647,
+          49.00246992802102
+        ],
+        "dimensions": [
+          84631,
+          65569
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/WUMI2024a_allsev/WUMI2024a_allsev_2002",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:4326",
+        "crs_transform": [
+          0.00026949458523585647,
+          0,
+          -124.84902599680046,
+          0,
+          -0.00026949458523585647,
+          49.00246992802102
+        ],
+        "dimensions": [
+          84631,
+          65569
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/WUMI2024a_allsev/WUMI2024a_allsev_2003",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:4326",
+        "crs_transform": [
+          0.00026949458523585647,
+          0,
+          -124.84902599680046,
+          0,
+          -0.00026949458523585647,
+          49.00246992802102
+        ],
+        "dimensions": [
+          84631,
+          65569
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/WUMI2024a_allsev/WUMI2024a_allsev_2004",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:4326",
+        "crs_transform": [
+          0.00026949458523585647,
+          0,
+          -124.84902599680046,
+          0,
+          -0.00026949458523585647,
+          49.00246992802102
+        ],
+        "dimensions": [
+          84631,
+          65569
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/WUMI2024a_allsev/WUMI2024a_allsev_2005",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:4326",
+        "crs_transform": [
+          0.00026949458523585647,
+          0,
+          -124.84902599680046,
+          0,
+          -0.00026949458523585647,
+          49.00246992802102
+        ],
+        "dimensions": [
+          84631,
+          65569
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/WUMI2024a_allsev/WUMI2024a_allsev_2006",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:4326",
+        "crs_transform": [
+          0.00026949458523585647,
+          0,
+          -124.84902599680046,
+          0,
+          -0.00026949458523585647,
+          49.00246992802102
+        ],
+        "dimensions": [
+          84631,
+          65569
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/WUMI2024a_allsev/WUMI2024a_allsev_2007",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:4326",
+        "crs_transform": [
+          0.00026949458523585647,
+          0,
+          -124.84902599680046,
+          0,
+          -0.00026949458523585647,
+          49.00246992802102
+        ],
+        "dimensions": [
+          84631,
+          65569
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/WUMI2024a_allsev/WUMI2024a_allsev_2008",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:4326",
+        "crs_transform": [
+          0.00026949458523585647,
+          0,
+          -124.84902599680046,
+          0,
+          -0.00026949458523585647,
+          49.00246992802102
+        ],
+        "dimensions": [
+          84631,
+          65569
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/WUMI2024a_allsev/WUMI2024a_allsev_2009",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:4326",
+        "crs_transform": [
+          0.00026949458523585647,
+          0,
+          -124.84902599680046,
+          0,
+          -0.00026949458523585647,
+          49.00246992802102
+        ],
+        "dimensions": [
+          84631,
+          65569
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/WUMI2024a_allsev/WUMI2024a_allsev_2010",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:4326",
+        "crs_transform": [
+          0.00026949458523585647,
+          0,
+          -124.84902599680046,
+          0,
+          -0.00026949458523585647,
+          49.00246992802102
+        ],
+        "dimensions": [
+          84631,
+          65569
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/WUMI2024a_allsev/WUMI2024a_allsev_2011",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:4326",
+        "crs_transform": [
+          0.00026949458523585647,
+          0,
+          -124.84902599680046,
+          0,
+          -0.00026949458523585647,
+          49.00246992802102
+        ],
+        "dimensions": [
+          84631,
+          65569
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/WUMI2024a_allsev/WUMI2024a_allsev_2012",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:4326",
+        "crs_transform": [
+          0.00026949458523585647,
+          0,
+          -124.84902599680046,
+          0,
+          -0.00026949458523585647,
+          49.00246992802102
+        ],
+        "dimensions": [
+          84631,
+          65569
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/WUMI2024a_allsev/WUMI2024a_allsev_2013",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:4326",
+        "crs_transform": [
+          0.00026949458523585647,
+          0,
+          -124.84902599680046,
+          0,
+          -0.00026949458523585647,
+          49.00246992802102
+        ],
+        "dimensions": [
+          84631,
+          65569
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/WUMI2024a_allsev/WUMI2024a_allsev_2014",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:4326",
+        "crs_transform": [
+          0.00026949458523585647,
+          0,
+          -124.84902599680046,
+          0,
+          -0.00026949458523585647,
+          49.00246992802102
+        ],
+        "dimensions": [
+          84631,
+          65569
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/WUMI2024a_allsev/WUMI2024a_allsev_2015",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:4326",
+        "crs_transform": [
+          0.00026949458523585647,
+          0,
+          -124.84902599680046,
+          0,
+          -0.00026949458523585647,
+          49.00246992802102
+        ],
+        "dimensions": [
+          84631,
+          65569
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/WUMI2024a_allsev/WUMI2024a_allsev_2016",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:4326",
+        "crs_transform": [
+          0.00026949458523585647,
+          0,
+          -124.84902599680046,
+          0,
+          -0.00026949458523585647,
+          49.00246992802102
+        ],
+        "dimensions": [
+          84631,
+          65569
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/WUMI2024a_allsev/WUMI2024a_allsev_2017",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:4326",
+        "crs_transform": [
+          0.00026949458523585647,
+          0,
+          -124.84902599680046,
+          0,
+          -0.00026949458523585647,
+          49.00246992802102
+        ],
+        "dimensions": [
+          84631,
+          65569
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/WUMI2024a_allsev/WUMI2024a_allsev_2018",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:4326",
+        "crs_transform": [
+          0.00026949458523585647,
+          0,
+          -124.84902599680046,
+          0,
+          -0.00026949458523585647,
+          49.00246992802102
+        ],
+        "dimensions": [
+          84631,
+          65569
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/WUMI2024a_allsev/WUMI2024a_allsev_2019",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:4326",
+        "crs_transform": [
+          0.00026949458523585647,
+          0,
+          -124.84902599680046,
+          0,
+          -0.00026949458523585647,
+          49.00246992802102
+        ],
+        "dimensions": [
+          84631,
+          65569
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/WUMI2024a_allsev/WUMI2024a_allsev_2020",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:4326",
+        "crs_transform": [
+          0.00026949458523585647,
+          0,
+          -124.84902599680046,
+          0,
+          -0.00026949458523585647,
+          49.00246992802102
+        ],
+        "dimensions": [
+          84631,
+          65569
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/WUMI2024a_allsev/WUMI2024a_allsev_2021",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:4326",
+        "crs_transform": [
+          0.00026949458523585647,
+          0,
+          -124.84902599680046,
+          0,
+          -0.00026949458523585647,
+          49.00246992802102
+        ],
+        "dimensions": [
+          84631,
+          65569
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/WUMI2024a_allsev/WUMI2024a_allsev_2022",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:4326",
+        "crs_transform": [
+          0.00026949458523585647,
+          0,
+          -124.84902599680046,
+          0,
+          -0.00026949458523585647,
+          49.00246992802102
+        ],
+        "dimensions": [
+          84631,
+          65569
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/WUMI2024a_allsev/WUMI2024a_allsev_2023",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:4326",
+        "crs_transform": [
+          0.00026949458523585647,
+          0,
+          -124.84902599680046,
+          0,
+          -0.00026949458523585647,
+          49.00246992802102
+        ],
+        "dimensions": [
+          84631,
+          65569
+        ]
+      },
+      {
+        "image_id": "projects/ee-tymc5571-cbi-module/assets/WUMI2024a_allsev/WUMI2024a_allsev_2024",
+        "band_used": "CBI_bc",
+        "crs": "EPSG:4326",
+        "crs_transform": [
+          0.00026949458523585647,
+          0,
+          -124.84902599680046,
+          0,
+          -0.00026949458523585647,
+          49.00246992802102
+        ],
+        "dimensions": [
+          84631,
+          65569
+        ]
+      }
+    ]
+  }
+]

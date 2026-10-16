@@ -20,7 +20,7 @@ dir_ensure(c(dir_raw,
 
 epsg <- "EPSG:5070"
 
-filenm <- "fired_west_2000_to_2020_events"
+filenm <- "firedv2_west_2000_to_2025_events"
 
 fired <- sf::st_read(here(dir_raw, "fired_conus_ak_2000_to_2025_events/fired_conus_ak_2000_to_2025_events.shp")) |>
   st_transform(epsg)
